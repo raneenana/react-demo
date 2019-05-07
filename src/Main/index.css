@@ -1,0 +1,16 @@
+.main-aside{
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 100;
+    background-color:#001529; 
+    transition: transform 0.3s ease 0s;
+}
+.menu-icon{
+    position: fixed;
+    z-index: 9999;
+    right:20px;
+    top:100px;
+    font-size: 100px;
+}

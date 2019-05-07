@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#root,#root>div:last-child,.cinema,.cinema>div{
+    width: 100%;
+    height: 100%;
+}
+.Search{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Shead{
+    width: 100%;
+    height: 44px;
+    background: crimson;
+    display: flex;
+    color:#fff;
+    justify-content: space-between;
+}
+.Shead div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 44px;
+    color:#fff;
+}
+.Ssection{
+    width: 100%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.Ssection .title{
+    width: 100%;
+    height: 44px;
+}
+.title input{
+    width: 80%;
+    height: 40px;
+    line-height: 44px;
+    border:1px solid #ccc;
+    margin-top:2px;
+}
+.title span{
+    display: inline-block;
+    width: 19%;
+    height: 100%;
+    text-align: center;
+    line-height: 44px;
+}
+.Ssection .list{
+    width: 100%;flex: 1;
+    overflow: scroll;
+}
+.list li{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+li .img{
+    width: 100px;
+    height: 100%;
+}
+.img img{
+    width: 90%;
+    margin-left: 5px;
+    margin-top:15px;
+}
+li .about{
+    flex:1;
+    padding:15px;
+    height: 100%;
+} 
+li .look{
+    width: 50px;
+    padding:15px 5px;;
+    height: 100%;
+}
+.look p{
+    text-align: center;
+}

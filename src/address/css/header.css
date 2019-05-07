@@ -1,0 +1,7 @@
+
+header{
+    height:0.36rem; display: flex; justify-content: space-around; align-items: center; background-color:rgb(0,140,255); color:#fff;
+}
+header>div{
+    height:30px; line-height:30px;
+}

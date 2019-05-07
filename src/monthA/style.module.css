@@ -1,0 +1,30 @@
+/* *{
+    width: 100%;
+    height: 100%;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#root{
+    width: 100%;
+    height: 100%;
+} */
+.page{
+    width:300px;
+}
+.ul{
+   padding-left:40px;
+}
+.btn{
+   display: none;
+}
+.title{
+   display: flex; justify-content: space-between; line-height:40px;
+}
+.title:hover .btn{
+   display: block;
+}
+.inputWrap{
+   width:200px;
+}

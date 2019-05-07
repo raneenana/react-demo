@@ -1,0 +1,32 @@
+section ul{
+    background-color:#fff;
+}
+section li.list{
+    
+}
+section li.list span{
+    padding-left:15px; font-weight: bold; display: inline-block; width:70px;
+}
+input{
+    outline:none; padding:0; border:0; background-color:transparent; padding-left:20px; height: 0.5rem; line-height:0.5rem; font-size:20px;
+}
+.sex span{
+    display: inline-block; padding: 7px 12px; border: 1px solid rgba(35,149,255,.18); border-radius:5px; font-weight: normal; color:#333; font-size:14px; text-align: center;
+}
+.sex span.active{
+    background-color:#eef7ff; color:#2395ff; 
+}
+.sex{
+    padding-left:90px;
+}
+.btn{
+    background: #00d762; display: block;
+    margin:20px;
+    text-align: center;
+    border-radius: .533333vw;
+    font-size: 16px;
+    line-height: 0.4rem;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+}
