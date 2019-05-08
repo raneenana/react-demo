@@ -20,7 +20,12 @@ class Index extends Component {
     }
     this.setState({ value })
   }
-
+  cancel = () => {
+    console.log("1111111111111111111111111111")
+    console.log(this.props)
+    let {history} = this.props
+    history.goBack()
+  }
 
   render() {
     let { blurlist } = this.props.movielist;
@@ -28,7 +33,7 @@ class Index extends Component {
     return <div>
       <div className="Search">
         <div className="Shead">
-          <div>back</div>
+          <div onClick={() => this.cancel()}>back</div>
           <div>搜索</div>
           <div></div>
         </div>
@@ -38,7 +43,7 @@ class Index extends Component {
               this.props.dispatch({ type: "CHANGES" })
               this.change(ev)
             }} />
-            <span>取消</span>
+            <span onClick={() => this.cancel()}>取消</span>
           </div>
           <ul className="list">
             {
